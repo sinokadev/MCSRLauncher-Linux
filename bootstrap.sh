@@ -38,4 +38,16 @@ chmod +x ./build.sh
 echo "[*] running build.sh ..."
 ./build.sh
 
+echo
+echo "[+] Build finished successfully!"
+echo
+echo "You can now run MCSRLauncher with:"
+echo
+echo "  chmod +x MCSRLauncher-x86_64.AppImage"
+echo "  ./MCSRLauncher-x86_64.AppImage"
+echo
+echo "If the file name is different, list available AppImages with:"
+echo
+echo "  ls *.AppImage"
+echo
 echo "[+] done"
